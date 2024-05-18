@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "blogs",
+  "collectionName": "nl_blogs",
   "info": {
-    "singularName": "blog",
-    "pluralName": "blogs",
-    "displayName": "EN_blog",
-    "description": ""
+    "singularName": "nl-blog",
+    "pluralName": "nl-blogs",
+    "displayName": "NL_blog"
   },
   "options": {
     "draftAndPublish": true
@@ -19,15 +18,14 @@
       "type": "richtext"
     },
     "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "slug": {
       "type": "uid",

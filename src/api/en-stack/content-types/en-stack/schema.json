@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "en_stacks",
+  "info": {
+    "singularName": "en-stack",
+    "pluralName": "en-stacks",
+    "displayName": "EN_stack"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}

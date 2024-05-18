@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nl_stacks",
+  "info": {
+    "singularName": "nl-stack",
+    "pluralName": "nl-stacks",
+    "displayName": "NL_stack"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}
