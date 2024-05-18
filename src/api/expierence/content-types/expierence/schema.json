@@ -4,7 +4,8 @@
   "info": {
     "singularName": "expierence",
     "pluralName": "expierences",
-    "displayName": "NL_expierence"
+    "displayName": "NL_expierence",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,20 +16,27 @@
       "type": "string"
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "description": {
       "type": "text"
     },
     "period": {
       "type": "text"
+    },
+    "website": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
     }
   }
 }
